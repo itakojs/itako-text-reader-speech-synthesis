@@ -5,8 +5,8 @@ Itako Text Reader Speech Synthesis
   <a href="https://npmjs.org/package/itako-text-reader-speech-synthesis">
     <img src="https://img.shields.io/npm/v/itako-text-reader-speech-synthesis.svg?style=flat-square">
   </a>
-  <a href="https://ci.appveyor.com/project/itakojs/itako-text-reader-speech-synthesis">
-    <img src="https://img.shields.io/appveyor/ci/itakojs/itako-text-reader-speech-synthesis.svg?style=flat-square">
+  <a href="https://ci.appveyor.com/project/59naga/itako-text-reader-speech-synthesis">
+    <img src="https://img.shields.io/appveyor/ci/59naga/itako-text-reader-speech-synthesis.svg?style=flat-square">
   </a>
   <a href="https://codeclimate.com/github/itakojs/itako-text-reader-speech-synthesis/coverage">
     <img src="https://img.shields.io/codeclimate/github/itakojs/itako-text-reader-speech-synthesis.svg?style=flat-square">
