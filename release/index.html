@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>webpack-dev-server</title>
+
+  <style>html,body{margin:0}</style>
+  <script src="https://npmcdn.com/itako"></script>
+  <script src="itako-text-reader-speech-synthesis.min.js"></script>
+  <script>
+  var reader = new ItakoTextReaderSpeechSynthesis('text', {
+    // default token volume (1~0)
+    volume: 1,
+
+    // default token pitch (2~0)
+    pitch: 2,
+
+    // default token reading speed (rate) (2~0.1)
+    speed: 2,
+
+    // default reading language (en,ja-JP,etc...)
+    lang: 'en',
+
+    // if specify SpeechSynthesisVoice.name, it use instance
+    // see also: `speechSynthesis.getVoices().map((voice)=> voice.name)`
+    speaker: 'Victoria',
+  });
+  var itako = new Itako([reader]);
+  itako.read('greeting');
+  </script>
+</head>
+<body>
+  <div id="main"></div>
+</body>
+</html>

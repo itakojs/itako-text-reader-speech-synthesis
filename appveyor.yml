@@ -1,0 +1,24 @@
+build: off
+deploy: off
+
+# Ignore version tags
+branches:
+  except:
+  - /^v[0-9]/
+
+environment:
+  nodejs_version: "4"
+
+  # CODECLIMATE_REPO_TOKEN
+  my_variable:
+    secure: lsP2llMq36BWrYUpuQQN9nja2ZdvV/269i5uh8FH5oaLOFzNEXcsZ2N/rerIXkNmnzDEoKqhuelL8JbZZsKZ52DPCOspRX00/k6AHTuRFzAOCJzKre5yQlywI12L9Ajq
+
+install:
+  - ps: Install-Product node $env:nodejs_version
+  - npm install npm@3 --global
+  - npm install
+
+test_script:
+  - node --version
+  - npm --version
+  - npm test
