@@ -33,8 +33,8 @@ Usage
 specify instance as first argument of the [Itako constructor](https://github.com/itakojs/itako#usage) as the value of the array.
 
 ```html
-<script src="https://npmcdn.com/itako"></script>
-<script src="https://npmcdn.com/itako-text-reader-speech-synthesis"></script>
+<script src="https://unpkg.com/itako"></script>
+<script src="https://unpkg.com/itako-text-reader-speech-synthesis"></script>
 <script>
 var reader = new ItakoTextReaderSpeechSynthesis('text', {
   // default token volume (1~0)
